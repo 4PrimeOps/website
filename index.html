@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4PrimeOps | Enterprise Software Engineering</title>
+    <style>
+        /* Base Reset and Typography */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Brand Typography */
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin: 0 0 10px 0;
+            color: #ffffff;
+        }
+
+        .subtitle {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.25em;
+            color: #777777;
+            margin-bottom: 3.5rem;
+            font-weight: 600;
+        }
+
+        /* Stealth Mode Terminal/Status Box */
+        .status-box {
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #b0b0b0;
+            background: #121212;
+            padding: 25px;
+            border-radius: 6px;
+            border-left: 3px solid #333333;
+            margin-bottom: 3.5rem;
+            text-align: left;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+
+        .status-box .highlight {
+            color: #ffffff;
+            font-weight: 600;
+        }
+
+        /* Contact Link */
+        .contact {
+            font-size: 0.9rem;
+            color: #666666;
+        }
+
+        a {
+            color: #a0a0a0;
+            text-decoration: none;
+            border-bottom: 1px dotted #555;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+
+        a:hover {
+            color: #ffffff;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        /* Simple fade-in animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>4PrimeOps</h1>
+        <div class="subtitle">Enterprise Software Engineering</div>
+        
+        <div class="status-box">
+            > System Status: <span class="highlight">Private Beta</span><br>
+            > Access Level: <span class="highlight">Restricted</span><br><br>
+            Our core systems are currently operating in stealth mode.<br>
+            Architecture and orchestration access is by invitation only.
+        </div>
+
+        <div class="contact">
+            Direct inquiries: <a href="mailto:contact@4primeops.com">contact@4primeops.com</a>
+        </div>
+    </div>
+
+</body>
+</html>
